@@ -2,7 +2,17 @@
 
 Pequeña utilidad para mostrar en CLI una barra de porcentaje.
 
-Para utilizarlo simplemente:
+## Instalación
+
+    pip install git+git://github.com/felipem775/progressbar.git
+
+## Uso
+
+Para utilizarlo simplemente lo importamos y lo llamamos con dos o tres parámetros:
+- Valor actual
+- Valor máximo
+- [Mensaje]
+
 
 ```python
 import progressBar
@@ -14,7 +24,7 @@ Resultado:
 [======                                                           ]  2/20  10%
 ```
 
-También admite como parámetro un mensaje que aparecerá sobre la línea:
+Si utilizamos como parámetro un mensaje aparecerá sobre la línea:
 
 ```python
 import progressBar
